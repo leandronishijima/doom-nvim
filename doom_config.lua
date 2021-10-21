@@ -20,7 +20,7 @@ local doom = {
   -- false : Disable format on save
   -- true  : Enable format on save
   -- @default = false
-  fmt_on_save = false,
+  fmt_on_save = true,
 
   -- Disable Vim macros
   -- false : Enable Vim macros
@@ -70,7 +70,7 @@ local doom = {
   -- true  : enables scroll off
   -- @default = true, @default scrolloff_amount = 4,
   scrolloff = true,
-  scrolloff_amount = 4,
+  scrolloff_amount = 999,
 
   -- Enable mouse
   -- false : disables mouse
@@ -257,11 +257,11 @@ local doom = {
 
   -- Default colorscheme
   -- @default = doom-one
-  colorscheme = "doom-one",
+  colorscheme = "doom-ayu-mirage",
 
   -- Background color
   -- @default = dark
-  colorscheme_bg = "dark",
+  colorscheme_bg = "light",
 
   -- Doom One colorscheme settings
   doom_one = {
@@ -344,11 +344,14 @@ local nvim = {
   --
   --   where
   --     'n' is the map scope
-  --     'ca' is the map activator
   --     ':Lspsaga ...' is the command to be executed
+  --     'ca' is the map activator
   --     options is a Lua table containing the mapping options, e.g.
   --     { silent = true }, see ':h map-arguments'.
-  mappings = {},
+  mappings = {
+    {"n", "<leader>ew", "<cmd>lua require'hop'.hint_words()<CR>"},
+    {"n", "<leader>el", "<cmd>lua require'hop'.hint_lines()<CR>"},
+  },
 
   -- Set custom commands
   -- @default = {}

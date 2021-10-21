@@ -294,7 +294,7 @@ local function default_doom_config_values()
       enable_treesitter = true,
       -- If the comments should be italic
       -- @default = false
-      italic_comments = false,
+      italic_comments = true,
       -- If the telescope plugin window should be colored
       -- @default = true
       telescope_highlights = true,

@@ -86,6 +86,11 @@ return function()
       ["["] = { "Previous buffer" },
       ["p"] = { "Previous buffer" },
     },
+    ["e"] = {
+      name = "+editor",
+      ["w"] = { "Movespeed hint words" },
+      ["l"] = { "Movespeed hint lines" },
+    },
     ["c"] = {
       name = "+code",
       ["i"] = { "Start a REPL" },

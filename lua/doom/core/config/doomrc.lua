@@ -73,7 +73,7 @@ local function default_doomrc_values()
     },
     utilities = {
       -- 'suda',            -- Write and read files without sudo permissions
-      -- 'lazygit',         -- LazyGit integration for Neovim, requires LazyGit
+      'lazygit',         -- LazyGit integration for Neovim, requires LazyGit
       -- 'neogit',          -- Magit for Neovim
       "range-highlight", -- hightlights ranges you have entered in commandline
     },

@@ -74,4 +74,5 @@ return function()
 
   -- Load mapper extension
   telescope.load_extension("mapper")
+  telescope.load_extension("projects")
 end

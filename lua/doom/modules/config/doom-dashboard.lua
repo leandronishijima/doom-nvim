@@ -9,6 +9,10 @@ return function()
       description = { "  Load Last Session              SPC s r" },
       command = "lua require('persistence').load({ last = true })",
     },
+    p = {
+      description = { "  Open Projects                  SPC s r" },
+      command = "Telescope projects",
+    },
     b = {
       description = { "  Recently Opened Files          SPC f r" },
       command = "Telescope oldfiles",
