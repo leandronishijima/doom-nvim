@@ -38,7 +38,7 @@ local doom = {
     "telescope",          -- Highly extendable fuzzy finder over lists
     "formatter",          -- File formatting
     "autopairs",          -- Autopairs
-    "editorconfig",    -- EditorConfig support for Neovim
+    "editorconfig",       -- EditorConfig support for Neovim
     "kommentary",         -- Comments plugin
     "lsp",                -- Language Server Protocols
     "dap",                -- Debug Adapter Protocol

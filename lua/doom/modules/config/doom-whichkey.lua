@@ -90,6 +90,7 @@ return function()
       name = "+editor",
       ["w"] = { "Movespeed hint words" },
       ["l"] = { "Movespeed hint lines" },
+      ["o"] = { "Find by tag (Telescope treesitter)" },
     },
     ["c"] = {
       name = "+code",

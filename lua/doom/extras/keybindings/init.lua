@@ -728,7 +728,7 @@ utils.map(
 utils.map(
   "n",
   "<leader>ff",
-  "<cmd>Telescope find_files<CR>",
+  "<cmd>Telescope git_files<CR>",
   opts,
   "Editor",
   "find_files_alt",

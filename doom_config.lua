@@ -135,7 +135,7 @@ local doom = {
   -- false : spaces
   -- true  : tabs
   -- @default = true
-  expand_tabs = true,
+  expand_tabs = false,
 
   -- Set numbering
   -- false : Shows absolute number lines
@@ -187,7 +187,7 @@ local doom = {
 
   -- Default indent size
   -- @default = 4
-  indent = 4,
+  indent = 2,
 
   -- Set max cols
   -- Defines the column to show a vertical marker
@@ -273,7 +273,7 @@ local doom = {
     enable_treesitter = true,
     -- If the comments should be italic
     -- @default = false
-    italic_comments = false,
+    italic_comments = true,
     -- If the telescope plugin window should be colored
     -- @default = true
     telescope_highlights = true,
@@ -351,6 +351,7 @@ local nvim = {
   mappings = {
     {"n", "<leader>ew", "<cmd>lua require'hop'.hint_words()<CR>"},
     {"n", "<leader>el", "<cmd>lua require'hop'.hint_lines()<CR>"},
+    {"n", "<leader>eo", ":Telescope treesitter<CR>"},
   },
 
   -- Set custom commands
