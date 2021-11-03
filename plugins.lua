@@ -30,5 +30,8 @@ return {
         -- refer to the configuration section below
       }
     end
+  },
+  {
+    'sheerun/vim-polyglot'
   }
 }
