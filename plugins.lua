@@ -33,5 +33,8 @@ return {
   },
   {
     'sheerun/vim-polyglot'
+  },
+  {
+    'ellisonleao/glow.nvim'
   }
 }
