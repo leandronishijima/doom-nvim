@@ -65,14 +65,14 @@ local doom = {
     -- "cpp",             -- C++ support
     -- "java",            -- Java support
 
-    -- "config",          -- Configuration files (JSON, YAML, TOML)
+    "config",             -- Configuration files (JSON, YAML, TOML)
     -- "dockerfile",      -- Do you like containers, right?
   },
   utilities = {
     -- "suda",            -- Write and read files without sudo permissions
-    "lazygit",         -- LazyGit integration for Neovim, requires LazyGit
-    -- "neogit",          -- Magit for Neovim
-   "colorizer",           -- Fastest colorizer for Neovim
+    "lazygit",            -- LazyGit integration for Neovim, requires LazyGit
+    "neogit",             -- Magit for Neovim
+    "colorizer",          -- Fastest colorizer for Neovim
     "range-highlight",    -- hightlights ranges you have entered in commandline
   },
   web = {
