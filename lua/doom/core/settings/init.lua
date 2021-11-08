@@ -51,8 +51,15 @@ M.load_default_options = function()
 
   if config.doom.line_highlight then
     vim.opt.cursorline = true
+    vim.opt.cursorcolumn = true
   else
     vim.opt.cursorline = false
+  end
+
+  if config.doom.column_highlight then
+    vim.opt.cursorcolumn = true
+  else
+    vim.opt.cursorcolumn = false
   end
 
   -- Automatic split locations

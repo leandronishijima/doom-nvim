@@ -123,6 +123,12 @@ local function default_doom_config_values()
     -- @default = true
     line_highlight = true,
 
+    -- enable current column highlight
+    -- false : disables current column highlight
+    -- true  : enables current column highlight
+    -- @default = true
+    column_highlight = true,
+
     -- Automatically split right
     -- false : splits right (vertically)
     -- true  : splits left (vertically)
