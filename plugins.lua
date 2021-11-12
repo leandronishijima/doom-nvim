@@ -31,10 +31,7 @@ return {
       }
     end
   },
-  {
-    'sheerun/vim-polyglot'
-  },
-  {
-    'ellisonleao/glow.nvim'
-  }
+  { 'sheerun/vim-polyglot' },
+  { 'ellisonleao/glow.nvim' },
+  { 'habamax/vim-elixir-mix-test' }
 }
