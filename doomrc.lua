@@ -63,7 +63,7 @@ local doom = {
     -- "rust +lsp",       -- Let's get rusty!
     -- "go",              -- Hello, gopher
     -- "cpp",             -- C++ support
-    -- "java",            -- Java support
+    "java",               -- Java support
 
     "config",             -- Configuration files (JSON, YAML, TOML)
     -- "dockerfile",      -- Do you like containers, right?
