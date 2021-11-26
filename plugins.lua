@@ -33,5 +33,9 @@ return {
   },
   { 'sheerun/vim-polyglot' },
   { 'ellisonleao/glow.nvim' },
-  { 'habamax/vim-elixir-mix-test' }
+  { 'habamax/vim-elixir-mix-test' },
+  {'dart-lang/dart-vim-plugin'},
+  {'thosakwe/vim-flutter'},
+  {'natebosch/vim-lsc'},
+  {'natebosch/vim-lsc-dart'}
 }

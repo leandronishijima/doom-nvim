@@ -59,14 +59,13 @@ local doom = {
     "lua",                -- Support for our gods language
     "elixir +lsp",        -- Build scalable and maintainable software
     -- "haskell",         -- Because Functional programming is fun, isn't it?
-
     -- "rust +lsp",       -- Let's get rusty!
     -- "go",              -- Hello, gopher
     -- "cpp",             -- C++ support
     "java",               -- Java support
-
     "config",             -- Configuration files (JSON, YAML, TOML)
     -- "dockerfile",      -- Do you like containers, right?
+    "dart"
   },
   utilities = {
     -- "suda",            -- Write and read files without sudo permissions
