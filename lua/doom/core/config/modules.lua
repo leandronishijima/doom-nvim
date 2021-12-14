@@ -53,7 +53,7 @@ modules.modules = {
     -- "typescript",      -- TypeScript support
 
     -- "bash",            -- The terminal gods language
-    -- "elixir",          -- Build scalable and maintainable software
+    "elixir",          -- Build scalable and maintainable software
     "lua", -- Support for our gods language
     -- "python +lsp",     -- Python support + lsp
     -- "ruby",            -- Look ma, I love the gems!
