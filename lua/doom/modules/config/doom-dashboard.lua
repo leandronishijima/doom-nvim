@@ -1,5 +1,5 @@
 return function()
-  local config = require("doom.core.config").load_config()
+  local config = require("doom.core.config").config
 
   vim.g.dashboard_session_directory = require("doom.core.system").doom_root .. "/sessions"
   vim.g.dashboard_default_executive = "telescope"
@@ -35,7 +35,7 @@ return function()
     },
     g = {
       description = { "  Open Documentation             SPC d d" },
-      command = "h doom_nvim",
+      command = 'lua require("doom.core.functions").open_docs()',
     },
   }
 
@@ -45,10 +45,6 @@ return function()
       vim.fn.reltimefloat(vim.fn.reltime(vim.g.start_time))
     ) .. " seconds.",
   }
-
-  if not config.doom.dashboard_statline then
-    vim.g.dashboard_disable_statusline = 1
-  end
 
   vim.g.dashboard_custom_header = vim.tbl_isempty(config.doom.dashboard_custom_header)
       and {
@@ -72,7 +68,6 @@ return function()
         "=='    _-'                        N E O V I M                         \\/   `==",
         "\\   _-'                                                                `-_   /",
         " `''                                                                      ``'  ",
-        "                                                                               ",
       }
     or config.doom.dashboard_custom_header
   -- Header color
